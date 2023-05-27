@@ -1,0 +1,15 @@
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\bin\Debug\net6.0\ManipulacaoDeStrings.exe
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\bin\Debug\net6.0\ManipulacaoDeStrings.deps.json
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\bin\Debug\net6.0\ManipulacaoDeStrings.runtimeconfig.json
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\bin\Debug\net6.0\ManipulacaoDeStrings.dll
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\bin\Debug\net6.0\ManipulacaoDeStrings.pdb
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\obj\Debug\net6.0\ManipulacaoDeStrings.csproj.AssemblyReference.cache
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\obj\Debug\net6.0\ManipulacaoDeStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\obj\Debug\net6.0\ManipulacaoDeStrings.AssemblyInfoInputs.cache
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\obj\Debug\net6.0\ManipulacaoDeStrings.AssemblyInfo.cs
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\obj\Debug\net6.0\ManipulacaoDeStrings.csproj.CoreCompileInputs.cache
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\obj\Debug\net6.0\ManipulacaoDeStrings.dll
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\obj\Debug\net6.0\refint\ManipulacaoDeStrings.dll
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\obj\Debug\net6.0\ManipulacaoDeStrings.pdb
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\obj\Debug\net6.0\ManipulacaoDeStrings.genruntimeconfig.cache
+C:\Dev\Projetos\ManipulacaoDeStrings\ManipulacaoDeStrings\obj\Debug\net6.0\ref\ManipulacaoDeStrings.dll
