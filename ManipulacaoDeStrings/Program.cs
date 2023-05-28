@@ -2,53 +2,96 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        // Exemplo de manipulação de strings
-        string frase = "Olá, isso é um exemplo de manipulação de strings!";
-        Console.WriteLine(frase);
+        string text = "  Hello, World!  ";
 
-        // Tamanho da string
-        int tamanho = frase.Length;
-        Console.WriteLine("Tamanho da string: " + tamanho);
+        // Exemplo 1: Conversão para maiúsculas e minúsculas
+        Console.WriteLine(text.ToUpper());  // Resultado: "  HELLO, WORLD!  "
+        Console.WriteLine(text.ToLower());  // Resultado: "  hello, world!  "
 
-        // Transformar em maiúsculas
-        string fraseMaiuscula = frase.ToUpper();
-        Console.WriteLine("Maiúsculas: " + fraseMaiuscula);
+        // Exemplo 2: Remover espaços em branco
+        Console.WriteLine(text.Trim());  // Resultado: "Hello, World!"
 
-        // Transformar em minúsculas
-        string fraseMinuscula = frase.ToLower();
-        Console.WriteLine("Minúsculas: " + fraseMinuscula);
+        // Exemplo 3: Obter uma substring
+        Console.WriteLine(text.Substring(7, 5));  // Resultado: "World"
 
-        // Verificar se contém uma palavra específica
-        bool contemPalavra = frase.Contains("exemplo");
-        Console.WriteLine("Contém a palavra 'exemplo': " + contemPalavra);
-
-        // Substituir parte da string
-        string novaFrase = frase.Replace("exemplo", "teste");
-        Console.WriteLine("Nova frase: " + novaFrase);
-
-        // Dividir a string em partes separadas
-        string[] partes = frase.Split(' ');
-        Console.WriteLine("Partes separadas:");
-        foreach (string parte in partes)
+        // Exemplo 4: Dividir uma string em substrings
+        string[] words = text.Split(' ');
+        foreach (string word in words)
         {
-            Console.Write(parte + "");
+            Console.WriteLine(word);
         }
 
-        // Obter parte da string
-        string parteDaFrase = frase.Substring(9, 7);
-        Console.WriteLine("Parte da frase: " + parteDaFrase);
+        // Exemplo 5: Substituir substrings
+        Console.WriteLine(text.Replace("World", "Universe"));  // Resultado: "  Hello, Universe!  "
 
-        // Remover espaços em branco no início e no final
-        string fraseSemEspacos = frase.Trim();
-        Console.WriteLine("Frase sem espaços: " + fraseSemEspacos);
+        // Exemplo 6: Combinar uma matriz de strings
+        string[] fruits = { "Apple", "Banana", "Orange" };
+        string fruitString = string.Join(", ", fruits);
+        Console.WriteLine(fruitString);  // Resultado: "Apple, Banana, Orange"
 
-        // Verificar se a string está vazia
-        bool estaVazia = string.IsNullOrEmpty(frase);
-        Console.WriteLine("A frase está vazia: " + estaVazia);
+        // Exemplo 7: Verificar se a string é nula ou vazia
+        string emptyString = "";
+        Console.WriteLine(string.IsNullOrWhiteSpace(emptyString));  // Resultado: true
 
-        // Aguardar pressionamento de tecla para sair
-        Console.ReadKey();
+        // Exemplo 8: Formatação de string
+        string name = "John";
+        int age = 30;
+        string formattedString = string.Format("My name is {0} and I'm {1} years old.", name, age);
+        Console.WriteLine(formattedString);  // Resultado: "My name is John and I'm 30 years old."
+
+        // Exemplo 9: Localizar a posição de uma substring
+        Console.WriteLine(text.IndexOf("World"));  // Resultado: 9
+        Console.WriteLine(text.LastIndexOf("o"));  // Resultado: 10
+
+        // Exemplo 10: Verificar se uma string começa ou termina com uma substring
+        Console.WriteLine(text.StartsWith("Hello"));  // Resultado: true
+        Console.WriteLine(text.EndsWith("!"));  // Resultado: true
+
+        string sentence = "The quick brown fox jumps over the lazy dog";
+
+        // Exemplo 11: Verificar se uma string contém outra string
+        Console.WriteLine(sentence.Contains("fox"));  // Resultado: true
+
+        // Exemplo 12: Dividir uma string em substrings com base em várias opções de separadores
+        string[] words2 = sentence.Split(new char[] { ' ', ',' });
+        foreach (string word in words2)
+        {
+            Console.WriteLine(word);
+        }
+
+        // Exemplo 13: Remover caracteres específicos de uma string
+        string specialChars = "!@#$%^&*()";
+        string cleanedString = sentence;
+        foreach (char c in specialChars)
+        {
+            cleanedString = cleanedString.Replace(c.ToString(), "");
+        }
+        Console.WriteLine(cleanedString);  // Resultado: "The quick brown fox jumps over the lazy dog"
+
+        // Exemplo 14: Contar o número de ocorrências de uma substring em uma string
+        int count = sentence.Split(new string[] { "the" }, StringSplitOptions.None).Length - 1;
+        Console.WriteLine(count);  // Resultado: 2
+
+        // Exemplo 15: Inverter uma string
+        char[] charArray = sentence.ToCharArray();
+        Array.Reverse(charArray);
+        string reversedString = new string(charArray);
+        Console.WriteLine(reversedString);  // Resultado: "god yzal eht revo spmuj xof nworb kciuq ehT"
+
+        // Exemplo 16: Concatenar strings usando o operador "+"
+        string part1 = "Hello";
+        string part2 = "World";
+        string concatenatedString = part1 + ", " + part2;
+        Console.WriteLine(concatenatedString);  // Resultado: "Hello, World"
+
+        // Exemplo 17: Verificar se uma string é igual a outra ignorando maiúsculas e minúsculas
+        string str1 = "Hello";
+        string str2 = "hello";
+        bool equalIgnoreCase = str1.Equals(str2, StringComparison.OrdinalIgnoreCase);
+        Console.WriteLine(equalIgnoreCase);  // Resultado: true
+
+        Console.ReadLine();
     }
 }
