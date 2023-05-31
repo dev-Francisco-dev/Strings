@@ -39,4 +39,4 @@ CONTATO
 
 Se você tiver alguma dúvida, sugestão ou feedback, sinta-se à vontade para entrar em contato:
 
-Nome: Seu Nome E-mail dev.fr4ncisco@gmail.com
+Nome: Francisco Alexandre E-mail dev.fr4ncisco@gmail.com
