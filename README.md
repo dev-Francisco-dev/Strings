@@ -4,7 +4,7 @@ Este repositório contém exemplos e recursos relacionados à manipulação de s
 
 DESCRIÇÃO
 
-A manipulação de cordas é uma tarefa comum na programação e o C# oferece uma ampla gama de recursos e métodos para trabalhar com cordas. Este repositório foi criado para fornecer exemplos claros e práticos de como realizar operações comuns de manipulação de strings em C# em um aplicativo de console.
+A manipulação de Strings é uma tarefa comum na programação e o C# oferece uma ampla gama de recursos e métodos para trabalhar com cordas. Este repositório foi criado para fornecer exemplos claros e práticos de como realizar operações comuns de manipulação de strings em C# em um aplicativo de console.
 
 CONTEÚDO DO REPOSITÓRIO
 
@@ -12,7 +12,7 @@ O repositório contém um único arquivo, Program.cs, que contém exemplos de ma
 
 COMO UTILIZAR
 
-1 - Abra o arquivo Program.csno seu editor de código preferido.
+1 - Abra o arquivo Program.cs no seu editor de código preferido.
 
 2 - Explore os exemplos e recursos disponíveis no arquivo.
 
